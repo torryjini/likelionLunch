@@ -8,6 +8,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 #likelion-image {
@@ -19,14 +20,13 @@
 button {
     background-color: #F09837;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 13rem;
     height: 4rem;
     margin: 1.3rem;
     border-radius: 2rem;
     border: none;
     cursor: pointer;
-    font-weight: bolder;
 }
 
 button:hover {
@@ -53,7 +53,7 @@ h4 {
 }
 
 #mapbtn {
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 8rem;
     height: 2.5rem;
     border-radius: 1.25rem;
