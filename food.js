@@ -158,9 +158,8 @@ function menuRecommend() {
     <h4><i>${restaurantName.category}</i></h4>
     <h3>${restaurantName.menu}</h3>
     <h3>★${restaurantName.rating}</h3>`;
+    btnMap.target = "_blank"
     btnMap.href = restaurantName.map;
 }
 
 btnResult.addEventListener("click", menuRecommend);
-
-// console.log(food[Math.floor(Math.random() * food.length)].name);
