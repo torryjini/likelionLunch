@@ -19,6 +19,7 @@ button {
     height: 4rem;
     margin: 1.3rem;
     border-radius: 2rem;
+    border: none;
     cursor: pointer;
 }
 
