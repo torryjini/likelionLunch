@@ -145,6 +145,13 @@ food = [
         menu : "김밥, 라면 등",
         rating : "4",
         map : "http://naver.me/5MUeBqqm"
+    },
+    {
+        name : "육칼",
+        category : "한식",
+        menu : "육개장칼국수",
+        rating : "4",
+        map : "http://naver.me/5ncPKUAC"
     }
 ]
 
