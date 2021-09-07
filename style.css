@@ -23,7 +23,7 @@ button {
     font-size: 2.5rem;
     width: 13rem;
     height: 4rem;
-    margin: 1.3rem;
+    margin: 1.2rem;
     border-radius: 2rem;
     border: none;
     cursor: pointer;
@@ -57,4 +57,5 @@ h3 {
     width: 8rem;
     height: 2.5rem;
     border-radius: 1.25rem;
+    margin: 0.1rem;
 }
