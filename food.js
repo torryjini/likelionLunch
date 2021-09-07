@@ -160,7 +160,7 @@ const btnResult = document.querySelector("#btn");
 const btnMap = document.querySelector("#maphref")
 
 function menuRecommend() {
-    let restaurantName = food[Math.floor(Math.random() * food.length)];
+    const restaurantName = food[Math.floor(Math.random() * food.length)];
     restaurant.innerHTML = `<h1>${restaurantName.name}</h1>
     <h4><i>${restaurantName.category}</i></h4>
     <h3>${restaurantName.menu}</h3>
