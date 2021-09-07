@@ -162,9 +162,9 @@ const btnMap = document.querySelector("#maphref")
 function menuRecommend() {
     const restaurantName = food[Math.floor(Math.random() * food.length)];
     restaurant.innerHTML = `<h1>${restaurantName.name}</h1>
-    <h4><i>${restaurantName.category}</i></h4>
-    <h3>${restaurantName.menu}</h3>
-    <h3>★ ${restaurantName.rating}</h3>`;
+    <h3><i>${restaurantName.category}</i></h3>
+    <h2>${restaurantName.menu}</h2>
+    <h2>★ ${restaurantName.rating}</h2>`;
     btnMap.target = "_blank"
     btnMap.href = restaurantName.map;
 }
