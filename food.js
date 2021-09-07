@@ -164,7 +164,7 @@ function menuRecommend() {
     restaurant.innerHTML = `<h1>${restaurantName.name}</h1>
     <h4><i>${restaurantName.category}</i></h4>
     <h3>${restaurantName.menu}</h3>
-    <h3>★${restaurantName.rating}</h3>`;
+    <h3>★ ${restaurantName.rating}</h3>`;
     btnMap.target = "_blank"
     btnMap.href = restaurantName.map;
 }
