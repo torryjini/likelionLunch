@@ -48,6 +48,7 @@ h1 {
 h4 {
     color: gray;
     margin: 0.5rem;
+    font-weight: lighter;
 }
 
 #mapbtn {
