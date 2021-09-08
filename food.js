@@ -130,14 +130,14 @@ food = [
         category : "중식",
         menu : "짜장면, 짬뽕 등",
         rating : "4",
-        map : "https://map.naver.com/v5/entry/place/18563278?c=14143799.9827124,4510251.7849904,13,0,0,0,dh&placePath=%2Fhome%3Fentry=plt"
+        map : "http://naver.me/5vIc8BY9"
     },
     {
         name : "평가옥",
         category : "한식",
         menu : "평양냉면",
         rating : "4",
-        map : "https://map.naver.com/v5/search/평가옥/place/12943462?c=14139727.8600794,4510015.2308622,13,0,0,0,dh&placePath=%3Fentry%253Dbmp"
+        map : "http://naver.me/Fk5dj2WI"
     },
     {
         name : "김밥천국",
