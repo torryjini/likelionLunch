@@ -112,7 +112,7 @@ food = [
         map : "http://naver.me/FZJ37ahU"
     },
     {
-        name : "snowfox",
+        name : "SNOWFOX",
         category : "아시안",
         menu : "스시도시락, 롤, 샐러드",
         rating : "4",
