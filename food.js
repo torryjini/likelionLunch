@@ -164,7 +164,7 @@ food = [
 
 const restaurant = document.querySelector("#restaurant");
 const btnResult = document.querySelector("#btn");
-const btnMap = document.querySelector("#maphref")
+const btnMap = document.querySelector("#maphref");
 
 function menuRecommend() {
     const restaurantName = food[Math.floor(Math.random() * food.length)];
@@ -172,6 +172,7 @@ function menuRecommend() {
     <h3><i>${restaurantName.category}</i></h3>
     <h2>${restaurantName.menu}</h2>
     <h2>★ ${restaurantName.rating}</h2>`;
+    btnMap.classList.remove("hide");
     btnMap.target = "_blank"
     btnMap.href = restaurantName.map;
 }
