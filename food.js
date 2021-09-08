@@ -154,7 +154,7 @@ food = [
         map : "http://naver.me/5ncPKUAC"
     },
     {
-        name : "소곱창과순대국",
+        name : "소곱창과 순대국",
         category : "한식",
         menu : "돼지불백, 제육볶음 등",
         rating : "4",
