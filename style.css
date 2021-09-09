@@ -61,11 +61,7 @@ h3 {
     margin: 0.1rem;
 }
 
-.hide {
-    display: none;
-}
-
-input[type=radio] {
+.hide, input[type=radio], #menu-recom, #mate-recom {
     display: none;
 }
 
@@ -78,10 +74,6 @@ label {
     font-size: 2rem;
     margin: 0 2rem;
     cursor: pointer;
-}
-
-#menu-recom, #mate-recom {
-    display: none;
 }
 
 #navi-menu:checked ~ #menu-recom, #navi-mate:checked ~ #mate-recom {
