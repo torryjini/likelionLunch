@@ -159,6 +159,34 @@ food = [
         menu : "돼지불백, 제육볶음 등",
         rating : "4",
         map : "http://naver.me/GVAN4tce"
+    },
+    {
+        name : "도스타코스",
+        category : "양식",
+        menu : "타코, 부리또",
+        rating : "5",
+        map : "http://naver.me/GPrb78dt"
+    },
+    {
+        name : "꺼벙이김밥",
+        category : "분식",
+        menu : "떡튀순, 김밥, 김치볶음밥",
+        rating : "4",
+        map : "http://naver.me/xUSF1IEE"
+    },
+    {
+        name : "제주은희네해장국",
+        category : "한식",
+        menu : "내장탕, 해장국",
+        rating : "4",
+        map : "http://naver.me/xbwnLUBi"
+    },
+    {
+        name : "애니홀",
+        category : "양식",
+        menu : "파스타, 리조또, 샐러드, 덮밥",
+        rating : "5",
+        map : "http://naver.me/IMQpGODY"
     }
 ]
 
