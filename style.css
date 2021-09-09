@@ -63,3 +63,30 @@ h3 {
 .hide {
     display: none;
 }
+
+input[type=radio] {
+    display: none;
+}
+
+#navi-menu:checked ~ #menubtn {
+    border-bottom: #F09837 solid 3px;
+}
+
+#navi-mate:checked ~ #matebtn {
+    border-bottom: #F09837 solid 3px;
+}
+
+label {
+    color: #F09837;
+    font-size: 2rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+#menu-recom, #mate-recom {
+    display: none;
+}
+
+#navi-menu:checked ~ #menu-recom, #navi-mate:checked ~ #mate-recom {
+    display: block;
+}
