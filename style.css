@@ -13,7 +13,7 @@
 
 #likelion-image {
     margin-top: 0.5rem;
-    width: 15rem;
+    width: 14rem;
     height: auto;
 }
 
@@ -85,4 +85,8 @@ label {
 
 #navi-menu:checked ~ #menu-recom, #navi-mate:checked ~ #mate-recom {
     display: block;
+}
+
+span {
+    font-size: 2rem;
 }
