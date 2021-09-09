@@ -1,6 +1,6 @@
 food = [
     {
-        name : "에머이 삼성점",
+        name : "에머이",
         category : "아시안",
         menu : "베트남쌀국수",
         rating : "4",
