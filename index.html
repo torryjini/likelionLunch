@@ -23,9 +23,17 @@
 <body>
     <img src="멋사_이미지.png" alt="멋쟁이 사자처럼" id="likelion-image">
     <h1>멋쟁이 사자처럼<br>STARTUP SCHOOL 1기</h1>
-    <button id="btn">메뉴추천</button>
-    <div id="restaurant"></div>
-    <a id="maphref" class="hide"><button id="mapbtn">지도보기</button></a>
+    <input type="radio" name="navi" id="navi-menu" checked><label for="navi-menu" id="menubtn">MENU</label>
+    <input type="radio" name="navi" id="navi-mate"><label for="navi-mate" id="matebtn">MATE</label>
+    <div id="menu-recom">
+        <button id="btn">메뉴추천</button>
+        <div id="restaurant"></div>
+        <a id="maphref" class="hide"><button id="mapbtn">지도보기</button></a>
+    </div>
+    <div id="mate-recom">
+        <span>준비 중입니다...</span>
+    </div>
     <script src="food.js"></script>
+    <script src="mate.js"></script>
 </body>
 </html>
