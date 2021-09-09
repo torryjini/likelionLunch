@@ -68,11 +68,7 @@ input[type=radio] {
     display: none;
 }
 
-#navi-menu:checked ~ #menubtn {
-    border-bottom: #F09837 solid 3px;
-}
-
-#navi-mate:checked ~ #matebtn {
+#navi-menu:checked ~ #menubtn, #navi-mate:checked ~ #matebtn {
     border-bottom: #F09837 solid 3px;
 }
 
