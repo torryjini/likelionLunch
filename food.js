@@ -56,14 +56,14 @@ food = [
         map : "http://naver.me/xL1Epm2K"
     },
     {
-        name : "뽕나무쟁이 선릉",
+        name : "뽕나무쟁이",
         category : "한식",
         menu : "족발",
         rating : "4",
         map : "http://naver.me/F4NteBAT"
     },
     {
-        name : "아리스타 선릉점",
+        name : "아리스타",
         category : "카페",
         menu : "샌드위치, 생과일주스",
         rating : "4",
@@ -197,9 +197,9 @@ const btnMap = document.querySelector("#maphref");
 function menuRecommend() {
     const restaurantName = food[Math.floor(Math.random() * food.length)];
     restaurant.innerHTML = `<h1 id="rest-name">${restaurantName.name}</h1>
-    <h3><i>${restaurantName.category}</i></h3>
-    <h2>${restaurantName.menu}</h2>
-    <h2>★ ${restaurantName.rating}</h2>`;
+        <h3><i>${restaurantName.category}</i></h3>
+        <h2>${restaurantName.menu}</h2>
+        <h2>★ ${restaurantName.rating}</h2>`;
     btnMap.classList.remove("hide");
     btnMap.target = "_blank"
     btnMap.href = restaurantName.map;
