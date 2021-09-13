@@ -64,7 +64,7 @@ while(j < Object.keys(matesThisWeek).length * 2) {
     mateList.innerHTML += `<span>${matesThisWeek[j][0]} - ${matesThisWeek[j][1]}</span><br>`
     j = j + 2
 }
-mateList.innerHTML += "<p>*매칭은 랜덤이며 이미 식사하셨다면 자유롭게 바꾸셔도 됩니다.<br>혹시 매칭 신청하지 않으셨다면?</p>"
+mateList.innerHTML += "<p>*매칭은 랜덤이며 이미 식사하신 분이면 자유롭게 바꾸셔도 됩니다.<br>혹시 매칭 신청하지 않으셨다면?</p>"
 
 function restMemberRandom() {
     const restMember = restMembers[Math.floor(Math.random() * restMembers.length)]
