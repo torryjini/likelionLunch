@@ -197,7 +197,7 @@ const btnMap = document.querySelector("#maphref");
 function menuRecommend() {
     const restaurantName = food[Math.floor(Math.random() * food.length)];
     restaurant.innerHTML = `<h1 id="rest-name">${restaurantName.name}</h1>
-        <h3><i>${restaurantName.category}</i></h3>
+        <h2 id="category"><i>${restaurantName.category}</i></h2>
         <h2>${restaurantName.menu}</h2>
         <h2>★ ${restaurantName.rating}</h2>`;
     btnMap.classList.remove("hide");
