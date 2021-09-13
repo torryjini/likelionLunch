@@ -14,18 +14,18 @@ const randomMates = []
 const mates = {}
 
 function randomMembers() {
-    while(randomMates.length < 32){
-        let mate = members[Math.floor(Math.random() * members.length)]
+    while(randomMates.length < members.length){
+        const mate = members[Math.floor(Math.random() * members.length)]
         if(randomMates.indexOf(mate) == -1){
             randomMates.push(mate)
         }
     }
-    var i = 0;
-    while(i < randomMates.length){
-        const arrayInObject = new Array(randomMates[i], randomMates[i+1]);
+    var j = 0;
+    while(j < randomMates.length){
+        const arrayInObject = new Array(randomMates[j], randomMates[j+1]);
         arrayInObject.sort();
-        mates[i] = arrayInObject;
-        i = i + 2;
+        mates[j] = arrayInObject;
+        j = j + 2;
     }
     console.log(mates)
 }
