@@ -12,11 +12,11 @@
 }
 
 body {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 #likelion-image {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     width: 9rem;
     height: auto;
 }
