@@ -1,4 +1,5 @@
-const mateList = document.getElementById("mate-recom")
+const mateList = document.getElementById("mate-list");
+const mateBtn = document.getElementById("restbtn")
 
 const allMembers = [
     "강명성", "강지수", "김동낙", "김명진",
@@ -16,6 +17,8 @@ const members = [
     '전웅섭', '서수정', '김태완', '박지원', '박지운', '김동낙', '이재관', '김지민', '박기둥',
     '김지화', '김현호', '김명진', '오수민'
 ]
+
+let restMembers = allMembers.filter(x => !members.includes(x));
 
 const randomMates = []
 
@@ -61,4 +64,11 @@ while(j < Object.keys(matesThisWeek).length * 2) {
     mateList.innerHTML += `<span>${matesThisWeek[j][0]} - ${matesThisWeek[j][1]}</span><br>`
     j = j + 2
 }
-mateList.innerHTML += "<p>*매칭은 랜덤이며 이미 식사하셨다면 자유롭게 바꾸시면 됩니다.</p>"
+mateList.innerHTML += "<p>*매칭은 랜덤이며 이미 식사하셨다면 자유롭게 바꾸시면 됩니다.<br>혹시 매칭 신청하지 않으셨다면</p>"
+
+function restMemberRandom() {
+    const restMember = restMembers[Math.floor(Math.random() * restMembers.length)]
+    swal(restMember + " 님", "","")
+}
+
+mateBtn.addEventListener("click", restMemberRandom)

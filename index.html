@@ -24,6 +24,7 @@
     <meta property="og:title" content="LUNCH LION">
     <meta property="og:description" content="먹사_LUNCH LION">
     <meta property="og:image" content="thumbnail.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <img src="likelion.png" alt="멋쟁이 사자처럼" id="likelion-image">
@@ -31,12 +32,15 @@
     <input type="radio" name="navi" id="navi-menu" checked><label for="navi-menu" id="menubtn">MENU</label>
     <input type="radio" name="navi" id="navi-mate"><label for="navi-mate" id="matebtn">MATE</label>
     <div id="menu-recom">
-        <button id="btn">메뉴추천</button>
+        <button class="btns" id="btn">메뉴추천</button>
         <div id="restaurant"></div>
-        <a id="maphref" class="hide"><button id="mapbtn">지도보기</button></a>
+        <a id="maphref" class="hide"><button id="mapbtn" class="btns smallbtn">지도보기</button></a>
     </div>
     <div id="mate-recom">
-        <span>준비 중입니다...</span>
+        <div id="mate-list">
+            <span>준비 중입니다...</span>
+        </div>
+        <button id="restbtn" class="btns smallbtn">매칭추천</button>
     </div>
     <script src="food.js"></script>
     <script src="mate.js"></script>
