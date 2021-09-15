@@ -187,6 +187,13 @@ food = [
         menu : "파스타, 리조또, 샐러드, 덮밥",
         rating : "5",
         map : "http://naver.me/IMQpGODY"
+    },
+    {
+        name : "용호낙지",
+        category : "한식",
+        menu : "낙곱새, 낙지전골",
+        rating : "5",
+        map : "http://naver.me/GZAjl9ek"
     }
 ]
 
