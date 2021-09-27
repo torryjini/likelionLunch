@@ -194,6 +194,13 @@ food = [
         menu : "낙곱새, 낙지전골",
         rating : "5",
         map : "http://naver.me/GZAjl9ek"
+    },
+    {
+        name : "삼백플러스",
+        category : "한식",
+        menu : "한식뷔페",
+        rating : "4",
+        map : "http://naver.me/IMxmF4AN"
     }
 ]
 
