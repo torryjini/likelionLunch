@@ -201,6 +201,13 @@ const food = [
         menu : "한식뷔페",
         rating : "4",
         map : "http://naver.me/IMxmF4AN"
+    },
+    {
+        name : "강성환 차이나",
+        category : "중식",
+        menu : "짜장면, 차돌짬뽕 등",
+        rating : "4",
+        map : "http://naver.me/5VemYDFl"
     }
 ]
 
