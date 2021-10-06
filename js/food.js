@@ -1,4 +1,4 @@
-food = [
+const food = [
     {
         name : "에머이",
         category : "아시안",
