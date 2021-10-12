@@ -77,20 +77,20 @@ label {
     padding: 0 0.8rem;
 }
 
-.hide, input[type=radio], #menu-recom, #mate-recom {
+.hide, input[type=radio], #menu-recom, #mate-recom, #time {
     display: none;
 }
 
-#navi-menu:checked ~ #menubtn, #navi-mate:checked ~ #matebtn {
+#navi-menu:checked ~ #menubtn, #navi-mate:checked ~ #matebtn, #navi-time:checked ~ #timebtn {
     border-bottom: #F09837 solid 4px;
 }
 
-#navi-menu:checked ~ #menu-recom, #navi-mate:checked ~ #mate-recom {
+#navi-menu:checked ~ #menu-recom, #navi-mate:checked ~ #mate-recom, #navi-time:checked ~ #time {
     display: block;
 }
 
-#mate-recom {
-    padding-top: 0.7rem;
+#mate-recom, #time {
+    padding-top: 1rem;
 }
 
 span {
@@ -104,4 +104,8 @@ span {
 
 p { 
     margin-top: 0.5rem;
+}
+
+#time > h2 {
+    margin: 0.7rem;
 }
