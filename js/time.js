@@ -85,8 +85,6 @@ const schedule = [
     }
 ]
 
-console.log(schedule.length)
-
 function schedulrByDate() {
     var i = 0;
     while(i < 36){
