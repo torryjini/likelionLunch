@@ -8,7 +8,7 @@ const schedule = {
     "10/20": "<h2>Django Models & Admin</h2><h2>--점심시간--</h2><h2>Model 실습</h2><h2>Django CRUD & 실습</h2><h2>질의시간</h2>",
     "10/21": "<h2>Django Template(1)</h2><h2>--점심시간--</h2><h2>Django Template(2)</h2><h2>Media File(1)</h2><h2>질의시간</h2>",
     "10/22": "<h2>주간 리뷰 & 질의</h2><h2>--점심시간--</h2><h2>팀 프로젝트</h2><h2>팀별 공유회</h2>",
-    "10/25": "<h2>static의 의미</h2><h2>--점심시간--</h2><h3>Django Static File Management</h3><h2>Media File(2)</h2><h2>질의시간</h2>",
+    "10/25": "<h2>static의 의미</h2><h2>--점심시간--</h2><h3>Django Static File<br>Management</h3><h2>Media File(2)</h2><h2>질의시간</h2>",
     "10/26": "<h2>검색기능</h2><h2>--점심시간--</h2><h2>검색실습</h2><h2>기본보안<br>(CSRF, CORS, HTTPS)</h2><h3>Authentication 이론</h3><h2>질의시간</h2>",
     "10/27": "<h2>로그인 구현</h2><h2>--점심시간--</h2><h2>로그인 구현 실습</h2><h2>소셜 로그인<br>(Naver OAuth2)</h2><h2>질의시간</h2>",
     "10/28": "<h2>Javascript</h2><h2>--점심시간--</h2><h2>jQuery & AJAX</h2><h3>jQuery를 활용하여<br>HTML 작성</h3><h2>질의시간</h2>",
