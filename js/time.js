@@ -29,7 +29,7 @@ const week = ['월', '화', '수', '목', '금'];
 
 function scheduleByDate() {
     for(var i = 0; i < Object.keys(schedule).length; i++) {
-        carousel.innerHTML += `<div class="carousel-item" id="item-${i}"><h1>${Object.keys(schedule).sort()[i]} (${week[(i+1)%5]})</h1>${schedule[Object.keys(schedule).sort()[i]]}</div>`
+        carousel.innerHTML += `<div class="carousel-item" id="item-${i}" data-interval="false"><h1>${Object.keys(schedule).sort()[i]} (${week[(i+1)%5]})</h1>${schedule[Object.keys(schedule).sort()[i]]}</div>`
         if(Object.keys(schedule).sort()[i] == todaysDate) {
             document.querySelector(`#item-${i}`).classList.add('active')
         } else {
