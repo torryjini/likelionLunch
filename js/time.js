@@ -1,11 +1,3 @@
-const timeTable = document.querySelector("#time");
-
-const today = new Date
-const todaysDate = `${today.getMonth()+1}/${today.getDate()}`
-
-const week = ['일', '월', '화', '수', '목', '금', '토'];
-const dayOfWeek = week[today.getDay()];
-
 const schedule = {
     "10/12": "<h2>HTML</h2><h2>--점심시간--</h2><h2>HTML 실습</h2><h2>CSS</h2><h2>CSS 실습</h2><h2>질의시간</h2>",
     "10/13": "<h2>HTML & CSS 리뷰</h2><h2>프로필 제작</h2><h2>--점심시간--</h2><h2>프로필 제작</h2><h2>Bootstrap</h2><h2>Bootstrap 실습</h2><h2>질의시간</h2>",
@@ -25,11 +17,25 @@ const schedule = {
     "11/2": "<h2>Naver Cloud</h2><h2>--점심시간--</h2><h3>Naver Geolocations</h3><h3>DRF and JS<br>template engines</h3><h3>Authentication 이론</h3><h2>질의시간</h2>",
     "11/3": "<h2>팀별 프로젝트 리뷰</h2><h2>--점심시간--</h2><h2>팀별 프로젝트 리뷰</h2><h2>개발 1차 세션 마무리</h2>",
     "11/4": "<h2>비즈니스 실무</h2><h2>--점심시간--</h2><h2>전체 리뷰 세션</h2>",
-    "11/5": "<h2>비즈니스 실무</h2><h2>--점심시간--</h2><h2>전체 리뷰 세션</h2>"
+    "11/5": "<h2>비즈니스 실무</h2><h2>--점심시간--</h2><h2>전체 리뷰 세션</h2>",
 }
 
+const carousel = document.querySelector(".carousel-inner")
+
+const today = new Date
+const todaysDate = `${today.getMonth()+1}/${today.getDate()}`
+
+const week = ['월', '화', '수', '목', '금'];
+
 function scheduleByDate() {
-    timeTable.innerHTML = `<h1>${todaysDate} (${dayOfWeek})</h1>${schedule[todaysDate]}`
+    for(var i = 0; i < Object.keys(schedule).length; i++) {
+        carousel.innerHTML += `<div class="carousel-item" id="item-${i}"><h1>${Object.keys(schedule).sort()[i]} (${week[(i+1)%5]})</h1>${schedule[Object.keys(schedule).sort()[i]]}</div>`
+        if(Object.keys(schedule).sort()[i] == todaysDate) {
+            document.querySelector(`#item-${i}`).classList.add('active')
+        } else {
+            document.querySelector(`#item-${i}`).classList.remove('active')
+        }
+    }
 }
 
 scheduleByDate()
