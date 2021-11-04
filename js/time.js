@@ -19,11 +19,11 @@ const schedule = {
     "10/29": "<h2>주간 리뷰 & 질의</h2><h2>--점심시간--</h2><h2>팀 프로젝트</h2>",
     "10/30": "<h2>주말은 쉽니다</h2>",
     "10/31": "<h2>주말은 쉽니다</h2>",
-    "11/1": "<h2>Chrome 알림(1)</h2><h2>--점심시간--</h2><h2>Chrome 알림(2)</h2><h2>외부 API 사용</h2><h2>질의시간</h2>",
-    "11/2": "<h2>Naver Cloud</h2><h2>--점심시간--</h2><h3>Naver Geolocations</h3><h3>DRF and JS<br>template engines</h3><h3>Authentication 이론</h3><h2>질의시간</h2>",
-    "11/3": "<h2>팀별 프로젝트 리뷰</h2><h2>--점심시간--</h2><h2>팀별 프로젝트 리뷰</h2><h2>개발 1차 세션 마무리</h2>",
-    "11/4": "<h2>비즈니스 실무</h2><h2>--점심시간--</h2><h2>전체 리뷰 세션</h2>",
-    "11/5": "<h2>비즈니스 실무</h2><h2>--점심시간--</h2><h2>전체 리뷰 세션</h2>",
+    "11/1": "<h2>프로젝트 코드 매니징</h2><h2>--점심시간--</h2><h2>프로젝트 코드 매니징</h2><h2>Javascript</h2>",
+    "11/2": "<h2>Javascript</h2><h2>Javascript Fetch</h2><h2>--점심시간--</h2><h2>Javascript Fetch</h2><h2>OAuth2</h2><h2>질의시간</h2>",
+    "11/3": "<h2>Naver Cloud</h2><h2>--점심시간--</h2><h2>Naver SENS</h2><h2>Naver Maps &<br>Geolocation</h2><h2>개발 1차 세션 마무리</h2>",
+    "11/4": "<h2>Where to play:<br>시장 선정의 중요성<br>(퓨처플레이)</h2><h2>--점심시간--</h2><h2>스타트업 커뮤니케이션 전략<br>(퓨쳐플레이)</h2><h2>프로젝트라이언 소개</h2><h2>두희님 특강<br>tvN Shift 촬영</h2>",
+    "11/5": "<h2>투자 프로세스의 이해<br>(퓨처플레이)</h2><h2>--점심시간--</h2><h2>사업계획서 작성 가이드<br>(퓨처플레이)</h2><h2>팀 프로젝트 시작 전<br>개발 리뷰 세션</h2>",
 }
 
 const carousel = document.querySelector(".carousel-inner")
